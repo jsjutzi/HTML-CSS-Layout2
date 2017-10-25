@@ -1,0 +1,201 @@
+header{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}
+
+body{
+    background-color: blue;
+}
+.header-item{
+    flex: space-between;
+}
+#left-logo p{
+    color: white;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+#nav-bar ul{
+    margin-left: -170px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    color: white;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+#subscribe-button{
+    font-size: 1.1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 500px;
+    width: 130px;
+    height: 40px;
+    margin-top: 40px;
+    margin-right: 20px;
+    border: white solid;
+    border-width: 2px;
+}
+#main-container{
+    height: 768px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+#left-logo{
+    display: flex;
+    flex-direction: row;
+}
+#left-logo img{
+    width: 100px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#center-box{
+    color: white;
+    background-color: blue;
+    width: 600px;
+    height: 400px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+#logo2{
+    height:60px;
+    width: 100px;
+    margin-left: 40%;
+}
+
+#center-box h1{
+    font-size: 3rem;
+    text-align: center;
+}
+#center-box p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: center;
+}
+#start-exploring{
+    background-color: rgba(0, 0, 0, 0);
+    width: 150px;
+    height: 40px;
+    font-size: 1.2em;
+    border: white thin 1px;
+    margin: auto;
+    border-radius: 500px;
+    color: white;
+}
+
+#social-media-buttons{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: white solid 2px;
+}
+#second-container{
+    background-color: white;
+    width: 92%;
+    margin: auto;
+}
+
+/*````````````````````````````Second Section`````````````````````````````````````````````````````*/
+
+#second-center-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#book-logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#second-center-box p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    padding: 20px;
+}
+#second-center-box h1{
+    text-align: center;
+    font-size: 2.0em;
+    font-weight: bold;
+}
+#second-p{
+    font-size: 1.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.3em;
+    
+}
+#book1{
+    width: 600px;
+    margin-top: 80px;
+    margin-left: 100px;
+
+}
+#second-split-container{
+    display: flex;
+    flex-direction: row;
+}
+#second-text-container{
+    width: 600px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.book-title{
+    color: blue;
+    margin: 50px;
+    font-weight: bold;
+}
+#second-text-container h1{
+    font-weight: bold;
+    font-size: 4.0em;
+    text-align: left;
+    margin-left: 50px;
+}
+.author{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.book-info{
+    margin-left: 10px;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.read-book{
+
+    background-color: blue;
+    color: white;
+    border-radius: 500px;
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
